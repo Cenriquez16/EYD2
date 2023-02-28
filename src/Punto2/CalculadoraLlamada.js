@@ -1,7 +1,7 @@
 import React from "react";
 
-class CalculadoraLlamadas extends React.Component {
-  calcularCostoLlamada(duracion) {
+class CalculadoraLlamada extends React.Component {
+  calcularCostoLlamadas(duracion) {
     let costoLlamada = 0;
     if (duracion <= 3) {
       costoLlamada = 100;
@@ -14,7 +14,7 @@ class CalculadoraLlamadas extends React.Component {
 
   render() {
     const { duracion } = this.props;
-    const costoLlamada = this.calcularCostoLlamada(duracion);
+    const costoLlamada = this.calcularCostoLlamadas(duracion);
     return (
       <div>
         <h3>Duración de la llamada: {duracion} minutos</h3>
@@ -24,4 +24,4 @@ class CalculadoraLlamadas extends React.Component {
   }
 }
 
-export default CalculadoraLlamadas;
+export default CalculadoraLlamada;

@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-//import CalculadoraLlamada from './Punto2/CalculadoraLlamada';
-//import App from './Punto1/ConvertidorTiempo';
+//import CalculadoraLlamada from './Punto2/calcularCostoLlamada';
+//import ConvertidorTiempo from './Punto1/convertirTiempo';
 //import SaludoHora from './Punto3/SaludoHora';
 //import NumerosIguales from './Punto4/NumerosIguales';
 //import OrdenarNumeros from './Punto5/OrdenarNumeros';

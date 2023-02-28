@@ -1,16 +1,16 @@
 import React from "react";
-import CalculadoraLlamadas from "./CalculadoraLlamadas";
+import CalculadoraLlamada from "./CalculadoraLlamada";
 
-class App extends React.Component {
+class CalcularCostoLLamada extends React.Component {
   render() {
     return (
       <div>
-        <CalculadoraLlamadas duracion={2} />
-        <CalculadoraLlamadas duracion={3} />
-        <CalculadoraLlamadas duracion={5} />
+        <CalculadoraLlamada duracion={2} />
+        <CalculadoraLlamada duracion={3} />
+        <CalculadoraLlamada duracion={5} />
       </div>
     );
   }
 }
 
-export default App;
+export default CalcularCostoLLamada;
