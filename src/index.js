@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 //import CalculadoraLlamada from './Punto2/calcularCostoLlamada';
 //import ConvertidorTiempo from './Punto1/convertirTiempo';
-//import SaludoHora from './Punto3/SaludoHora';
+import SaludoHora from './Punto3/SaludoHora';
 //import NumerosIguales from './Punto4/NumerosIguales';
 //import OrdenarNumeros from './Punto5/OrdenarNumeros';
 //import NumerosImpares from './Punto6/NumerosImpares';
@@ -20,7 +20,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    
+    <SaludoHora/>
   </React.StrictMode>
 );
 
